@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <title>EtherCore Wallet</title>
-  <link rel="canonical" href="https://wallet.ethercore.org" />
-  <meta name="description" content="wallet.ethercore.org is a free, open-source, client-side interface for generating EtherCore wallets &amp; more. Interact with the EtherCore blockchain easily &amp; securely. Double-check the URL ( wallet.ethercore.org ) before unlocking your wallet.">
+  <link rel="canonical" href="https://wallet.etherocre.io" />
+  <meta name="description" content="wallet.ethercore.io is a free, open-source, client-side interface for generating EtherCore wallets &amp; more. Interact with the EtherCore blockchain easily &amp; securely. Double-check the URL ( wallet.etherocre.io ) before unlocking your wallet.">
   <meta name="author" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/etherwallet-master.min.css">
@@ -32,6 +32,6 @@
 
 <header class="bg-gradient text-white">
 <section class="container text-center">
-  <a href="https://wallet.ethercore.org/"><img src="images/EtherCorewallet-logo.svg" height="50px" width="auto" alt="Ether Wallet" class="embedded-logo" /></a>
+  <a href="https://wallet.ethercore.io/"><img src="images/EtherCorewallet-logo.svg" height="50px" width="auto" alt="Ether Wallet" class="embedded-logo" /></a>
 </section>
 </header>

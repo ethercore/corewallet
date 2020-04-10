@@ -351,10 +351,10 @@
       </h5>
       <ul class="account-info">
         <li>
-          <a href="https://explorer.ethercore.org/addr/{{wallet.getAddressString()}}"
+          <a href="https://explorer.etherocre.io/addr/{{wallet.getAddressString()}}"
              target="_blank"
              rel="noopener noreferrer">
-               https://explorer.ethercore.org/addr/ {{wallet.getAddressString()}}
+               https://explorer.etherocre.io/addr/ {{wallet.getAddressString()}}
           </a>
         </li>
       </ul>

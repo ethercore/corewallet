@@ -97,7 +97,7 @@ if (IS_CX) {
   window.MewConnect = MewConnect;
   trezorConnect.manifest({
     email: 'dev@myetherwallet.com',
-    appUrl: 'https://wallet.ethercore.org'
+    appUrl: 'https://wallet.ethercore.io'
   });
 }
 var CustomGasMessages = require("./customGas.js");

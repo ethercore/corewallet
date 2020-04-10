@@ -4,13 +4,13 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>EtherCore Wallet</title>
-<meta property="og:title" content="wallet.ethercore.org: Your Key to EtherCore">
-<meta property="og:site_name" content="wallet.ethercore.org: Your Key to EtherCore">
-<meta name="twitter:title" content="wallet.ethercore.org: Your Key to EtherCore">
-<meta name="apple-mobile-web-app-title" content="wallet.ethercore.org: Your Key to EtherCore">
-<link href="https://wallet.ethercore.org" rel="canonical">
-<meta content="https://wallet.ethercore.org" property="og:url">
-<meta content="https://wallet.ethercore.org" name="twitter:url">
+<meta property="og:title" content="wallet.ethercore.io: Your Key to EtherCore">
+<meta property="og:site_name" content="wallet.ethercore.io: Your Key to EtherCore">
+<meta name="twitter:title" content="wallet.ethercore.io: Your Key to EtherCore">
+<meta name="apple-mobile-web-app-title" content="wallet.ethercore.io: Your Key to EtherCore">
+<link href="https://wallet.ethercore.io" rel="canonical">
+<meta content="https://wallet.ethercore.io" property="og:url">
+<meta content="https://wallet.ethercore.io" name="twitter:url">
 <link rel="stylesheet" href="css/etherwallet-master.min.css">
 <script type="text/javascript" src="js/etherwallet-static.min.js"></script>
 <script type="text/javascript" src="js/etherwallet-master.js"></script>
@@ -31,8 +31,8 @@
 <meta name="msapplication-config" content="images/fav/browserconfig.xml">
 <meta name="theme-color" content="#1d6986">
 <meta name="apple-mobile-web-app-status-bar-style" content="#1d6986">
-<meta property="og:url" content="https://wallet.ethercore.org" />
-<meta property="og:title" content="wallet.ethercore.org  &middot; Your Key to EtherCore" />
+<meta property="og:url" content="https://wallet.ethercore.io" />
+<meta property="og:title" content="wallet.ethercore.io  &middot; Your Key to EtherCore" />
 <meta property="og:type" content="website">
 <meta property="og:image" content="/images/EtherCorewallet-logo-banner.png" />
 <meta property="og:image" content="/images/EtherCorewallet-logo.svg" />
@@ -47,18 +47,18 @@
 "@type" : "Organization",
 "name" : "EtherCore",
 "legalName" : "EtherCore Org",
-"url" : "https://wallet.ethercore.org/",
+"url" : "https://wallet.ethercore.io/",
 "contactPoint" : [{
   "@type" : "ContactPoint",
-  "email" : "info@ethercore.org",
-  "url"   : "https://wallet.ethercore.org",
+  "email" : "info@ethercore.io",
+  "url"   : "https://wallet.ethercore.io",
   "contactType" : "customer service"
 }],
-"logo" : "https://wallet.ethercore.org/images/EtherCorewallet-logo.svg",
-"description": "wallet.ethercore.org is a free, open-source, client-side interface for generating Ethereum wallets &amp; more. Interact with the Ethereum blockchain easily &amp; securely.",
+"logo" : "https://wallet.ethercore.io/images/EtherCorewallet-logo.svg",
+"description": "wallet.ethercore.io is a free, open-source, client-side interface for generating Ethereum wallets &amp; more. Interact with the Ethereum blockchain easily &amp; securely.",
 "sameAs" : [
-  "https://ethercore.org",
-  "https://wallet.ethercore.org",
+  "https://ethercore.io",
+  "https://wallet.ethercore.io",
   "https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm",
   "https://www.facebook.com/EtherCore-106496104204226",
   "https://twitter.com/ethercore",

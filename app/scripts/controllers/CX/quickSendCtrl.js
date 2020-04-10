@@ -80,7 +80,7 @@ var quickSendCtrl = function($scope, $sce, darkList) {
 				if (!rawTx.isError) {
 					uiFuncs.sendTx(rawTx.signedTx, function(resp) {
 						if (!resp.isError) {
-							$scope.sendTxStatus = $sce.trustAsHtml(globalFuncs.getSuccessText(globalFuncs.successMsgs[2] + "<br />" + resp.data + "<br /><a href='http://explorer.ethercore.org/tx/" + resp.data + "' target='_blank' rel='noopener'> ERE TX via explorer.ethercore.org </a>"));
+							$scope.sendTxStatus = $sce.trustAsHtml(globalFuncs.getSuccessText(globalFuncs.successMsgs[2] + "<br />" + resp.data + "<br /><a href='http://explorer.ethercore.io/tx/" + resp.data + "' target='_blank' rel='noopener'> ERE TX via explorer.ethercore.io </a>"));
 							$scope.setBalance();
 						} else {
 							$scope.sendTxStatus = $sce.trustAsHtml(globalFuncs.getDangerText(resp.error));

@@ -145,7 +145,7 @@
       <!-- After Sent: Place Bid / Start Auction -->
       <div class="form-group well" ng-show="objENS.txSent && (objENS.status==ensModes.auction || objENS.status==ensModes.open)">
         <h4 class="text-danger">If you haven't done so already, please screenshot & save the below information.</h4>
-        <p>Please check your address on <a href="https://explorer.ethercore.org">https://explorer.ethercore.org</a> to ensure your BID TX is on the blockchain, without errors.</p>
+        <p>Please check your address on <a href="https://explorer.etherocre.io">https://explorer.etherocre.io</a> to ensure your BID TX is on the blockchain, without errors.</p>
         @@if (site === 'mew' ) { @@include( './ens-confirm-table.tpl', { "site": "mew" } ) }
         @@if (site === 'cx'  ) { @@include( './ens-confirm-table.tpl', { "site": "cx"  } ) }
       </div>

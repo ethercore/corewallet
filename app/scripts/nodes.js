@@ -51,29 +51,29 @@ nodes.customNodeObj = {
 nodes.nodeList = {
 	ethercore: {
 		name: "EtherCore",
-		blockExplorerTX: "https://explorer.ethercore.org/tx/[[txHash]]",
-		blockExplorerAddr: "https://explorer.ethercore.org/address/[[address]]",
+		blockExplorerTX: "https://explorer.ethercore.io/tx/[[txHash]]",
+		blockExplorerAddr: "https://explorer.ethercore.io/address/[[address]]",
 		type: nodes.nodeTypes.EtherCore,
 		eip155: true,
 		chainId: 466,
 		tokenList: require("./tokens/ethercoreTokens.json"),
 		abiList: require("./abiDefinitions/ethercoreAbi.json"),
 		estimateGas: true,
-		service: "ethercore.org",
-		lib: new nodes.customNode("https://rpc.ethercore.org", "")
+		service: "ethercore.io",
+		lib: new nodes.customNode("https://rpc.ethercore.io", "")
 	},
 	ethercore_testnet: {
 		name: "EtherCore Testnet",
-		blockExplorerTX: "https://testnet-explorer.ethercore.org/tx/[[txHash]]",
-		blockExplorerAddr: "https://testnet-explorer.ethercore.org/address/[[address]]",
+		blockExplorerTX: "https://testnet-explorer.ethercore.io/tx/[[txHash]]",
+		blockExplorerAddr: "https://testnet-explorer.ethercore.io/address/[[address]]",
 		type: nodes.nodeTypes.EtherCore,
 		eip155: true,
 		chainId: 468,
 		tokenList: require("./tokens/ethercoreTestnetTokens.json"),
 		abiList: require("./abiDefinitions/ethercoreTestnetAbi.json"),
 		estimateGas: true,
-		service: "testnet.ethercore.org",
-		lib: new nodes.customNode("https://testnet-rpc.ethercore.org", "")
+		service: "testnet.ethercore.io",
+		lib: new nodes.customNode("https://testnet-rpc.ethercore.io", "")
 	}
 };
 
