@@ -50,7 +50,7 @@ nodes.customNodeObj = {
 };
 nodes.nodeList = {
 	ethercore: {
-		name: "EtherCore",
+		name: "EtherCore Mainchain",
 		blockExplorerTX: "https://explorer.ethercore.io/tx/[[txHash]]",
 		blockExplorerAddr: "https://explorer.ethercore.io/address/[[address]]",
 		type: nodes.nodeTypes.EtherCore,
@@ -61,6 +61,19 @@ nodes.nodeList = {
 		estimateGas: true,
 		service: "ethercore.io",
 		lib: new nodes.customNode("https://rpc.ethercore.io", "")
+	},
+	ethercore_sidechain: {
+		name: "EtherCore Sidechain",
+		blockExplorerTX: "https://sidechain-explorer.ethercore.io/tx/[[txHash]]",
+		blockExplorerAddr: "https://sidechain-explorer.ethercore.io/address/[[address]]",
+		type: nodes.nodeTypes.EtherCore,
+		eip155: true,
+		chainId: 467,
+		tokenList: require("./tokens/ethercoreSidechainTokens.json"),
+		abiList: require("./abiDefinitions/ethercoreSidechainAbi.json"),
+		estimateGas: true,
+		service: "sidechain.ethercore.io",
+		lib: new nodes.customNode("https://sidechain-rpc.ethercore.io", "")
 	},
 	ethercore_testnet: {
 		name: "EtherCore Testnet",
